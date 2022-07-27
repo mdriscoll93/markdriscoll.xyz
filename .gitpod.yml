@@ -1,0 +1,8 @@
+tasks:
+  - name: Install Hugo Dependencies
+    before: brew install hugo
+  - init: echo "your version of hugo is `hugo version`"
+    command: hugoo server -D -F --baseURL $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0
+ports:
+  - port: 1313
+    onOpen: open-preview
