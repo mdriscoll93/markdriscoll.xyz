@@ -1,0 +1,7 @@
+.gitpod.yml
+
+# build artifacts
+.terraform/
+*.tfstate
+*.tfstate.backup
+/versions.yaml
