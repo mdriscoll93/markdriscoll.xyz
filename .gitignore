@@ -88,5 +88,5 @@ core.*
 
 # frontmatter config
 frontmatter.json
-**/frontmatter/
+/frontmatter/content
 **/MediaDb.json
