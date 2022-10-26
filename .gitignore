@@ -85,3 +85,7 @@ Footer
 
 # misc
 core.*
+
+# frontmatter config
+frontmatter.json
+MediaDb.json
