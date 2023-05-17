@@ -1,0 +1,12 @@
+<!-- list.html -->
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  <ul>
+    {{ range .Pages }}
+    <li>
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <p>{{ .Summary }}</p>
+    </li>
+    {{ end }}
+  </ul>
+{{ end }}
